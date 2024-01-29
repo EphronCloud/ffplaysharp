@@ -14,4 +14,43 @@
 		<ProjectReference Include="..\Unosquare.FFplaySharp\Unosquare.FFplaySharp.csproj" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\avcodec-60.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\avdevice-60.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\avfilter-9.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\avformat-60.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\avutil-58.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\ffmpeg.exe">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\ffplay.exe">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\ffprobe.exe">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\postproc-57.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\swresample-4.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="ffmpeg-master-latest-win64-gpl-shared\bin\swscale-7.dll">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	  <None Update="will.avi">
+	    <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
 </Project>
